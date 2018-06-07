@@ -66,7 +66,10 @@ const houses = ["home1", "home2", "home3"];
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// "House T"
+
+
+
+// for more info look at the game-of-strings.js file. 
 var getLoser = function(move) {
     if (move.text.indexOf("House Targaryen") === 0) {
       // Fire and Blood.
@@ -77,6 +80,38 @@ var getLoser = function(move) {
 // check the repo. 
 // for more info look for the game-of-strings.js file in the repo. 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Look into Template Literals. 
+// Template literals are enclosed by the back-tick(` `)character instead of double or single quotes. 
+// Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (${expression}).
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// look at array..
+// look at filter. 
+// filter will seek only M names not anything else. 
+// mNames has been created. 
+
+const princesses = [{ name: "Rapunzel", age: 18 }, { name: "Mulan", age: 16 },
+  { name: "Anna", age: 18 }, { name: "Moana", age: 16 }];
+
+  // using the `names` array, get only those names that start with an 'M'
+// can be replaced with filter
+const mNames = [];
+for (let i = 0; i < names.length; i++) {
+  if (names[i].startsWith("M")) {
+    mNames.push(names[i]);
+  }
+}
+console.log("m-names: ", mNames);
+
+
+
+
+
+
+
 
 
 
